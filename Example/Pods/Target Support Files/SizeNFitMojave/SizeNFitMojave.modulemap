@@ -1,0 +1,6 @@
+framework module SizeNFitMojave {
+  umbrella header "SizeNFitMojave-umbrella.h"
+
+  export *
+  module * { export * }
+}
