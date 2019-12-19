@@ -1,0 +1,11 @@
+framework module SizeNFitMojave {
+  umbrella header "SizeNFitMojave.h"
+
+  export *
+  module * { export * }
+}
+
+module SizeNFitMojave.Swift {
+    header "SizeNFitMojave-Swift.h"
+    requires objc
+}
